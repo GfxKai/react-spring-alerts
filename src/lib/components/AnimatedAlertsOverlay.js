@@ -2,24 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useTransition } from 'react-spring';
 import Alert from './Alert';
+import { transitionConfigPropType, styleConfigPropType } from '../propTypes';
 import './AnimatedAlertsOverlay.css';
 
 const propTypes = {
     alerts: PropTypes.arrayOf(PropTypes.object).isRequired,
     removeAlert: PropTypes.func.isRequired,
-    transitionConfig: PropTypes.shape({
-        from: PropTypes.object,
-        enter: PropTypes.object,
-        leave: PropTypes.object,
-    }).isRequired,
-    styleConfig: PropTypes.shape({
-        container: PropTypes.object,
-        header: PropTypes.object,
-        body: PropTypes.object,
-        error: PropTypes.object,
-        info: PropTypes.object,
-        success: PropTypes.object,
-    }),
+    transitionConfig: transitionConfigPropType.isRequired,
+    styleConfig: styleConfigPropType,
 };
 
 const defaultProps = {

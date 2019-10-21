@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { animated } from 'react-spring';
 import IconButton from './IconButton';
+import { styleConfigPropType } from '../propTypes';
 import { ReactComponent as CloseIcon } from '../assets/close.svg';
 import './Alert.css';
 
@@ -11,14 +12,7 @@ const propTypes = {
     message: PropTypes.string.isRequired,
     onDismiss: PropTypes.func.isRequired,
     animation: PropTypes.object.isRequired,
-    styling: PropTypes.shape({
-        container: PropTypes.object,
-        header: PropTypes.object,
-        body: PropTypes.object,
-        error: PropTypes.object,
-        info: PropTypes.object,
-        success: PropTypes.object,
-    }),
+    styling: styleConfigPropType,
 };
 
 const defaultProps = {

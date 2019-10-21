@@ -20,48 +20,50 @@ const AppWithAlerts = () => (
 );
 ```
 
-3. Trigger an alert anywhere in your app
+3. Access the Alerts context from any component within your app
 
 ```JSX
 import { useAlerts } from 'react-spring-alerts';
 
 const AlertButton = () => {
     const Alerts = useAlerts();
-    const onSubmit = async () => {
-        try {
-            const result = await requestAsync();
-            Alerts.showAlert({
-                type: 'success',
-                title: 'Success',
-                message: result,
-            });
-        } catch (e) {
-            Alerts.showAlert({
-                type: 'error',
-                title: 'Error',
-                message: e.message,
-            });
-        }
-    };
-    return (
-        <SubmitButton action={ onSubmit } />
-    );
+    ...
 };
 ```
 
-## Configuration
-
-You can customise the style of the alerts by passing an optional `styleConfig` prop to `AlertWrapper`:
+4. Trigger an alert
 
 ```JS
-const styleConfig = {
-    container: containerStyle,
-    header: headerStyle,
-    body: bodyStyle,
-    error: errorStyle,
-    info: infoStyle,
-    success: successStyle,
-}
+Alerts.showAlert({
+    type: 'error',
+    title: 'Example Error',
+    message: 'This is an error message',
+    duration: 5000,
+});
 ```
 
-You can also customise the transition animation by passing an optional `transitionConfig` prop to `AlertWrapper`. For more information please see documentation for react-spring's [useTransition](https://www.react-spring.io/docs/hooks/use-transition)
+## AlertWrapper Configuration
+
+You can override the style of the alerts by passing an optional `styleConfig` prop to `AlertWrapper`:
+
+```JS
+const styleConfigPropType = PropTypes.shape({
+    container: PropTypes.object,
+    header: PropTypes.object,
+    body: PropTypes.object,
+    error: PropTypes.object,
+    info: PropTypes.object,
+    success: PropTypes.object,
+});
+```
+
+You can also customise the transition animation by passing an optional `transitionConfig` prop to `AlertWrapper`. For more information, please see documentation for react-spring's [useTransition](https://www.react-spring.io/docs/hooks/use-transition).
+
+## Alert Configuration
+
+| Property | Type | Required | Default value | Description |
+| -- | -- | :--: | :--: | -- |
+| title | string | ✅ | - | Header for the alert |
+| message | string | ✅ | - | Message content for the alert |
+| type | string | ❌ | 'error' | Type of the alert. One of 'success', 'info' or 'error' |
+| duration | number | ❌ | 8000 | Duration of the alert in ms. 0 disables auto-dismiss |

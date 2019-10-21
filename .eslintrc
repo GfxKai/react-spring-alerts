@@ -59,14 +59,6 @@
                 }
             }
         ],
-        "comma-dangle": [
-            "error", {
-                "arrays": "never",
-                "objects": "only-multiline",
-                "imports": "only-multiline",
-                "exports": "only-multiline",
-                "functions": "only-multiline"
-            }
-        ]
+        "comma-dangle": ["error", "only-multiline"]
     }
 }

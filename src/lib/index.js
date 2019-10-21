@@ -5,6 +5,7 @@ import React, {
     useContext,
 } from 'react';
 import PropTypes from 'prop-types';
+import { transitionConfigPropType, styleConfigPropType } from './propTypes';
 import AnimatedAlertsOverlay from './components/AnimatedAlertsOverlay';
 
 const AlertContext = React.createContext({ showAlert: () => null });
@@ -12,19 +13,8 @@ const AlertContext = React.createContext({ showAlert: () => null });
 const useAlerts = () => useContext(AlertContext);
 
 const propTypes = {
-    transitionConfig: PropTypes.shape({
-        from: PropTypes.object,
-        enter: PropTypes.object,
-        leave: PropTypes.object,
-    }),
-    styleConfig: PropTypes.shape({
-        container: PropTypes.object,
-        header: PropTypes.object,
-        body: PropTypes.object,
-        error: PropTypes.object,
-        info: PropTypes.object,
-        success: PropTypes.object,
-    }),
+    transitionConfig: transitionConfigPropType,
+    styleConfig: styleConfigPropType,
     children: PropTypes.node.isRequired,
 };
 
