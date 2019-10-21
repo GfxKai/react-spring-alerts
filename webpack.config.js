@@ -7,6 +7,9 @@ module.exports = {
     output: {
         libraryTarget: "commonjs2"
     },
+    externals: {
+        react: "react"
+    },
     module: {
         rules: [
             {
