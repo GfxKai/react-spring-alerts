@@ -1,0 +1,26 @@
+.icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    transition: 0.25s all;
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+}
+.icon-button.disabled {
+    fill: #e0e0e0;
+}
+.icon-button.disabled [class^="icon-color-"] {
+    fill: #e0e0e0;
+}
+.icon-color-green {
+    fill: #31b501;
+}
+.icon-color-blue {
+    fill: #166dff;
+}
+.icon-color-red {
+    fill: #ff3b30;
+}

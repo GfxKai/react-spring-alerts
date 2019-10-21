@@ -1,0 +1,42 @@
+.alert-container {
+    position: relative;
+    border-radius: 6px;
+    width: 400px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.alert-container.error {
+    background-color: #ff3b30;
+}
+.alert-container.success {
+    background-color: #19c519;
+}
+.alert-header {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.alert-container span {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.alert-body {
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 12px;
+}
