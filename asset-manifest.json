@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-spring-alerts/static/css/main.612eb7cd.chunk.css",
-    "main.js": "/react-spring-alerts/static/js/main.0999ac1f.chunk.js",
-    "main.js.map": "/react-spring-alerts/static/js/main.0999ac1f.chunk.js.map",
+    "main.js": "/react-spring-alerts/static/js/main.2dcd4a80.chunk.js",
+    "main.js.map": "/react-spring-alerts/static/js/main.2dcd4a80.chunk.js.map",
     "runtime-main.js": "/react-spring-alerts/static/js/runtime-main.e36b09fd.js",
     "runtime-main.js.map": "/react-spring-alerts/static/js/runtime-main.e36b09fd.js.map",
-    "static/js/2.02e54afa.chunk.js": "/react-spring-alerts/static/js/2.02e54afa.chunk.js",
-    "static/js/2.02e54afa.chunk.js.map": "/react-spring-alerts/static/js/2.02e54afa.chunk.js.map",
+    "static/js/2.66ac1eae.chunk.js": "/react-spring-alerts/static/js/2.66ac1eae.chunk.js",
+    "static/js/2.66ac1eae.chunk.js.map": "/react-spring-alerts/static/js/2.66ac1eae.chunk.js.map",
     "index.html": "/react-spring-alerts/index.html",
-    "precache-manifest.1bacc7d31e1ad50e619ec656f2af217f.js": "/react-spring-alerts/precache-manifest.1bacc7d31e1ad50e619ec656f2af217f.js",
+    "precache-manifest.290d4d7727d7286121416675fcc24108.js": "/react-spring-alerts/precache-manifest.290d4d7727d7286121416675fcc24108.js",
     "service-worker.js": "/react-spring-alerts/service-worker.js",
     "static/css/main.612eb7cd.chunk.css.map": "/react-spring-alerts/static/css/main.612eb7cd.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.e36b09fd.js",
-    "static/js/2.02e54afa.chunk.js",
+    "static/js/2.66ac1eae.chunk.js",
     "static/css/main.612eb7cd.chunk.css",
-    "static/js/main.0999ac1f.chunk.js"
+    "static/js/main.2dcd4a80.chunk.js"
   ]
 }
