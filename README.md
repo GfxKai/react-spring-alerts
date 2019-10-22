@@ -2,6 +2,8 @@
 
 The easiest way to add beautiful alerts to your React app. Built with Hooks and Context API, animated with react-spring.
 
+[Demo](https://gfxkai.github.io/react-spring-alerts/)
+
 ![](react-spring-alerts.gif)
 
 ## Quickstart
