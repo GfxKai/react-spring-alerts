@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-spring-alerts/static/css/main.612eb7cd.chunk.css",
-    "main.js": "/react-spring-alerts/static/js/main.2dcd4a80.chunk.js",
-    "main.js.map": "/react-spring-alerts/static/js/main.2dcd4a80.chunk.js.map",
+    "main.js": "/react-spring-alerts/static/js/main.01c53e62.chunk.js",
+    "main.js.map": "/react-spring-alerts/static/js/main.01c53e62.chunk.js.map",
     "runtime-main.js": "/react-spring-alerts/static/js/runtime-main.e36b09fd.js",
     "runtime-main.js.map": "/react-spring-alerts/static/js/runtime-main.e36b09fd.js.map",
     "static/js/2.f9fe71d5.chunk.js": "/react-spring-alerts/static/js/2.f9fe71d5.chunk.js",
     "static/js/2.f9fe71d5.chunk.js.map": "/react-spring-alerts/static/js/2.f9fe71d5.chunk.js.map",
     "index.html": "/react-spring-alerts/index.html",
-    "precache-manifest.04ce1bc48c770ebebaa0b71a614f42c9.js": "/react-spring-alerts/precache-manifest.04ce1bc48c770ebebaa0b71a614f42c9.js",
+    "precache-manifest.84714cf36ba6fa5743a0cb3c7918c875.js": "/react-spring-alerts/precache-manifest.84714cf36ba6fa5743a0cb3c7918c875.js",
     "service-worker.js": "/react-spring-alerts/service-worker.js",
     "static/css/main.612eb7cd.chunk.css.map": "/react-spring-alerts/static/css/main.612eb7cd.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e36b09fd.js",
     "static/js/2.f9fe71d5.chunk.js",
     "static/css/main.612eb7cd.chunk.css",
-    "static/js/main.2dcd4a80.chunk.js"
+    "static/js/main.01c53e62.chunk.js"
   ]
 }
